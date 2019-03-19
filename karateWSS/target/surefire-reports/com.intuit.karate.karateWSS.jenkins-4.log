@@ -1,0 +1,26 @@
+15:11:09.494 request:
+1 > GET http://dummy.restapiexample.com/api/v1/employee/4
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: dummy.restapiexample.com
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_131)
+
+15:11:10.387 response time in milliseconds: 885.90
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Expose-Headers: Content-Type, X-Requested-With, X-authentication, X-client
+1 < Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+1 < Connection: keep-alive
+1 < Content-Type: text/html; charset=UTF-8
+1 < Date: Tue, 19 Mar 2019 09:36:42 GMT
+1 < Expires: Thu, 19 Nov 1981 08:52:00 GMT
+1 < Pragma: no-cache
+1 < Referrer-Policy: 
+1 < Server: nginx/1.14.1
+1 < Set-Cookie: PHPSESSID=du306d4cm90v7ovnoomfrjau42; path=/
+1 < Vary: Accept-Encoding
+1 < X-Acc-Exp: 0
+1 < X-Proxy-Cache: MISS dummy.restapiexample.com
+false
+
+

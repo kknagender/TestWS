@@ -1,0 +1,57 @@
+<testsuite failures="0" name="com/intuit/karate/karateWSS/jenkins.feature" skipped="0" tests="5" time="9.68071">
+  <testcase classname="com.intuit.karate.karateWSS.jenkins" name="Verify First Scenario" time="1.346622">
+    <system-out>Given url 'http://dummy.restapiexample.com/api/v1/employee/1' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.intuit.karate.karateWSS.jenkins" name="Verify Second scenario" time="1.354019">
+    <system-out>Given url 'http://dummy.restapiexample.com/api/v1/employee/1' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/2' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.intuit.karate.karateWSS.jenkins" name="Verify Third scenario" time="1.336075">
+    <system-out>Given url 'http://dummy.restapiexample.com/api/v1/employee/1' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/2' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/3' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.intuit.karate.karateWSS.jenkins" name="Verify Fourth scenario" time="1.359218">
+    <system-out>Given url 'http://dummy.restapiexample.com/api/v1/employee/1' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/2' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/3' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/4' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="com.intuit.karate.karateWSS.jenkins" name="Verify Fifth scenario" time="4.284776">
+    <system-out>Given url 'http://dummy.restapiexample.com/api/v1/employee/1' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/2' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/3' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/4' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'http://dummy.restapiexample.com/api/v1/employee/5' ............. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>
